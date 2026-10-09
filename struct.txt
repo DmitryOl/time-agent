@@ -1,0 +1,8 @@
+time-agent/
+├── app/
+│   └── main.py
+├── .dockerignore
+├── .env
+├── compose.yaml
+├── Dockerfile
+└── requirements.txt
