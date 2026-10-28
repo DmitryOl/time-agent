@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily time-agent backup
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 UTC
+Persistent=true
+Unit=time-agent-backup.service
+
+[Install]
+WantedBy=timers.target
